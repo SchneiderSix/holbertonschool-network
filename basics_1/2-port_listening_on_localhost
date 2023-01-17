@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Port listening on localhost
-echo "127.0.0.2 localhost" > /etc/hosts
+/etc/init.d/usermin restart
 telnet localhost 98
