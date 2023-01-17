@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 #Port listening on localhost
-sudo ufw allow 98/tcp
+#sudo ufw allow 98/tcp
+echo 'inetd_enable="YES"' >> /etc/rc.conf
+/etc/rc.d/inetd restart
 telnet localhost 98
