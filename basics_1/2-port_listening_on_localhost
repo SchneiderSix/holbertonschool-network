@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Port listening on localhost
+nc -l 98
+echo "Hello world"
+echo "test"
