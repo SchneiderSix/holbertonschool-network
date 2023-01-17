@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #Port listening on localhost
-exit 0
+sudo ufw allow 98/tcp
+telnet localhost 98
