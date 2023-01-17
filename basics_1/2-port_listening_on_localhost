@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 #Port listening on localhost
-nc -4 -l 2389 98
-exit 0
+telnet localhost 143
