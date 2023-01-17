@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #Port listening on localhost
-telnet localhost 143
+echo "127.0.0.2 localhost" > /etc/hosts
+telnet localhost 98
